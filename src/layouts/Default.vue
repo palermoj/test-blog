@@ -1,5 +1,6 @@
 <template>
   <div class="layout">
+    <a href="https://bootstrapmade.com/demo/Mentor/">Modelo de Pagina</a>
     <slot/>
     <div class="footer">
       <p>

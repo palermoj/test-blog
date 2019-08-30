@@ -1,6 +1,6 @@
 ---
-title: "Internado de practica forense"
-description: "Requerimiento para poder postular al internado"
+title: "Practica forense"
+description: "Requisitos para poder postular al internado de practica forense"
 date: 2019-05-23
 ---
 

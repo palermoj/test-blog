@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Consultorio Juridico Popular UMSS',
+  siteName: 'Consultorio Juridico',
   siteDescription: 'Publicaciones',
   plugins: [
     {
