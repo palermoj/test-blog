@@ -4,8 +4,8 @@
     <p class="date" v-html="post.date"/>
     <h1 class="title" v-html="post.title"/>
     <p class="description" v-html="post.description"/>
-    <b>{{post.timeToRead}} min read</b> &nbsp;
-    <g-link :to="post.path" class="read">Read More...</g-link>
+    <b>{{post.timeToRead}} min de lectura</b> &nbsp;
+    <g-link :to="post.path" class="read">Leer Mas...</g-link>
   </div>
 </template>
 

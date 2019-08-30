@@ -3,10 +3,11 @@
     <slot/>
     <div class="footer">
       <p>
-        Built with
+        Consultoria Juridica UMSS @ Derechos Reservados
+        <!-- Built with
         <a class="link" href="//gridsome.org">Gridsome</a>
         & Made with ❤️ by
-        <a class="link" href="//twitter.com/lauragift21">Gift Egwuenu</a>
+        <a class="link" href="//twitter.com/lauragift21">Gift Egwuenu</a> -->
       </p>
     </div>
   </div>
@@ -19,7 +20,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
-  border: 15px solid #fecd43;
+  /* border: 15px solid #fecd43; */
   min-height: 100vh;
 }
 

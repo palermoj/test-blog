@@ -1,50 +1,34 @@
 ---
-title: "Writing In Markdown"
-description: "Markdown post content stress test. See how your post content is being styled with Tailwind CSS."
+title: "Internado de practica forense"
+description: "Requerimiento para poder postular al internado"
 date: 2019-05-23
 ---
 
-Today, A lot of developers are conversant with the `alt` attribute on images. I can say most of us know that it is one way of making webpages accessible but do we really understand the scope of the alternative text, when to make use of it, how to use it. I agree it is one step to being an accessibility advocate so that is why in this article, I'll be explaining in detail the alt attribute and how practicing it can improve web accessibility in a long run.
 
-Truthful confession here, before I became really involved with accessibility I didn't understand the importance of having a descriptive text for all images on the web. I'm mostly guilty of leaving the `alt` attribute blank. Now that I know better I can't keep it to myself which is one of the reasons I'm writing this article to share this new knowledge gained with everyone.
+Articulo 1º (Objeto)
+El reglamento del internado rotatorio tiene por objeto, establecer las bases y fijar los lineamientos para la prestación del internado rotario de práctica forense de los alumnos egresados de la carrera de derecho de la facultad de ciencias jurídicas y políticas.
+a) En  el orden social, la interacción en la atención y apoyo jurídico generalmente gratuito, desde las instituciones públicas o privadas, a la comunidad litigante en los tribunales de justicia.
+b) En el orden didáctico, la aplicación real y objetiva de los conocimientos teórico - prácticos adquiridos durante sus estudios universitarios.
+Articulo 2º (Ámbito de aplicación)
+Las disposiciones del presente reglamento se aplican, para todo estudiante de la licenciatura en ciencias jurídicas que concluyo con todo el plan de estudios, que establece y corresponde a la carrera de derecho, debidamente acreditado por el departamento de registro e inscripciones de la universidad Mayor de San Simón; el mismo que es incorporado como becario a las instituciones públicas y privadas que tiene acuerdo interinstitucionales con la facultad y la UMSS, para la adquisición de habilidades y destrezas forenses y la consolidación de actitudes y valores propios del ejercicio de la abogacía en general.
+Articulo 3º (Concepto y Alcance)
+El presente reglamento del internado rotatorio de práctica forense es una: práctica semi profesional en todas las manifestaciones del área jurídica, en las instituciones públicas o privadas, siendo uno de los requisitos necesarios para optar al título de abogado.
+Es considerada académicamente como la practica supervisada, en calidad de modalidad de titulación que tiene como finalidad integrar la practica al curriculum de la carrera como formación complementaria, y se realiza a través de prácticas vivas, en las instituciones receptoras, en base a actividades programadas con un fin determinado en un ámbito físico que no es el de la universidad donde el estudiante enriquece su formación teórico para su desenvolvimiento en el ejercicio profesional.
+Articulo 4º (Fines)
+Son fines de la modalidad de graduación del internado rotario de práctica forense:
+1.       Complementar la formación de profesionales abogados cuyos conocimientos, habilidades y actitudes les permitan desempeñarse con la más alta calidad científica, humanista y social para realizar acciones de prevención, solución y rehabilitación en materia jurídica dentro las relaciones sociales del ser humano, sirviendo a sus semejantes y a la profesión.
+2.       Prestar asistencia jurídico-legal en instituciones públicas y/o privadas. Con prácticas pre-profesionales, incentivando la capacidad del egresado, para el trabajo, y fomentando valores y actitudes que impulsen su desarrollo  social e individual.
+3.       Desarrollar en los egresados la capacidad de enfrentar y resolver problemas de casos reales, que la práctica profesional plantea, con espíritu científico, sentido crítico y creatividad.
 
-## What is Alternative Text?
-Alternative text or alt text as it is fondly called is a written text description for an image on the web.
-Alt text is really useful and can come in handy in any of these scenarios:
-- people using assistive technology such as screen readers and so on.
-- people that have images turned off on their devices due to a poor internet connection.
-- it helps improve SEO for the webpage.
-
-Writing good alt text for images is very important and shouldn't be sidelined. To show how important this is the Web Content Accessibility Guidelines document [WCAG 2.1](https://www.w3.org/TR/WCAG21/#text-alternatives) have it has the first rule which shows that it's really important.
-
-> Guideline 1.1 Text Alternatives: Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.
-
-## How to Use Alt Text
-Typically, when adding an image to a webpage, we use the HTML image element to represent the image and the alt attribute on the image tag to give a description of the image. Here's an example:
-
-
-```html
-```
-The above alt attribute describes the context of the image. In this case, if a screen reader is being used on this page. It'll read the alt text instead and the user gets a very descriptive context of the image used.
-There are other things to consider when writing alt text this is just a primer to writing descriptive alternate text for images. I'll be going over the important concepts to take note of when using images on the webpages.
-All images on the web must have alternative text that describes the function of the image.
-There are seven concepts for using images on the web I'll be outlining each of them and they include:
-
-1. **Informative Images:** Informative images are images that describe a piece of information or concept. The information described can be anything from an emotion/impression to a label or the file format used in a link. The text alternative for an informative image should convey the meaning or content of the image. Here's an example:
-
-
-```html
-<img src="./girl.png" alt="A girl smiling happily.">
-```
-The image illustrated above shows the emotion of a girl. The idea therefore, is to make the alternative text convey this information.
-
-2. **Decorative Images:** Decorative images are images that don't necessarily convey meaning or information. These images don't add information to the content of the page mainly because the content description is already provided or the image is used for styling purposes. Therefore, the `alt` attribute is not provided or left empty `(alt="")`. The reason for this is to avoid assistive technologies such as screen readers from reading a redundant text to its users. Leaving the `alt` attribute out entirely is not a good practice because some screen readers will announce the file name of the image instead. An example is shown below:
-
-5. **Group of Images:** This type of images represent images that are grouped together to convey a single piece of information. An example can be a collection of heart icons to represent a rating. When adding descriptive text for each image, the alt attribute for only one of the image should have a description of the group of images, while the other images have an empty `alt` attribute so they are ignored by screen readers. Here's an example:
-
-
-```html
-<img src="full-heart.png" alt="1.5 of 3 hearts">
-<img src="half-heart.png" alt="">
-<img src="empty-heart.png" alt="">
-```
+Articulo 5º (Principios)
+El modelo académico de graduación se desarrolla en base a los siguientes principios:
+1.       Aprender a hacer buscado que el futuro profesional adquiera las capacidades para ejecutar su trabajo, el cual requiere del concurso de las habilidades y destrezas que el egresado desarrolla en los escenarios idóneos para completar su formación.
+2.       Aprender a ser considera las actitudes y valores propios de la persona, en la mejor armonía con su entorno natural y social.
+3.       Aprender a estar y convivir considera la capacidad de adaptación propia de la persona a los diferentes contextos donde se desenvuelve y con los diferentes grupos sociales con los que interactúa.
+Articulo 6º (Objetivos)
+El internado rotatorio de práctica forense de la carrera de derecho de la facultad de ciencias jurídicas y políticas, tiene como objetivos:
+1.       Promover en el alumno egresado el deseo de superación como individuo y como profesional del derecho, basado en constante desarrollo de habilidades y destrezas forenses, en el asesoramiento, argumentación, patrocinio de causas y elaboración de documentos legales.
+2.       Proporcionar al alumno egresado el espacio para la aplicación real del que hacer operativo del derecho, facilitando la etapa de transición entre lo educacional y lo laboral, induciendo de esa manera a la correcta elección de una especialidad profesional en el derecho.
+3.       Profundizar en el alumno egresado, mediante la interacción social, el apego a los valores humanos, a los principios éticos y humanísticos de la práctica jurídica y judicial.
+4.       Brindar a los alumnos egresados la complementación de sus conocimientos teóricos con la práctica en empresas o instituciones públicas o privadas, en el estudio de casos reales y atención de litigantes en la sociedad, que los fortalezca en el ejercicio de la abogacía.
+5.       Lograr que los alumnos tomen contacto con el ámbito en que se desenvuelven las organizaciones empresarias o entidades públicas o privadas, integrándoles en grupo socio-laborales, permitiendo el afianzamiento de su propia personalidad y el logro de su identidad.
